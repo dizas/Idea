@@ -1,0 +1,16 @@
+<svg width="486" height="238" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+ <g>
+  <title>Layer 1</title>
+  <rect rx="10" id="svg_10" height="183" width="430" y="21.65" x="27.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+  <rect rx="5" id="svg_11" height="17" width="23" y="205.65" x="51.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+  <rect rx="5" stroke="#000" id="svg_12" height="17" width="23" y="205.65" x="410.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" fill="none"/>
+  <rect rx="5" id="svg_15" height="144" width="392" y="40.65" x="44.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_16" y2="112.65" x2="438.5" y1="111.65" x1="46.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_18" y2="184.65" x2="242.5" y1="41.65" x1="241.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+  <ellipse ry="6" rx="5" id="svg_19" cy="76.65" cx="144.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+  <ellipse ry="6" rx="5" id="svg_20" cy="146.65" cx="144.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+  <ellipse ry="6" rx="5" id="svg_21" cy="76.65" cx="339.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+  <ellipse ry="6" rx="5" id="svg_22" cy="146.65" cx="340.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+ </g>
+</svg>

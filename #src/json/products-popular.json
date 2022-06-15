@@ -1,0 +1,56 @@
+{
+	"products": [
+		{
+			"id": 13,
+			"url": "#",
+			"title": "Комод ML042",
+			"text": "Основательный комод на цоколе с продуманными габаритами и лаконичной формой",
+			"labels": "",
+			"image": "product-13.jpg",
+			"imageHidden": "product-13_2.jpg",
+			"price": "94 900",
+			"priceOld": "",
+			"shareUrl": "",
+			"likeUrl": ""
+		},
+		{
+			"id": 14,
+			"url": "#",
+			"title": "Высокий комод TW020",
+			"text": "Высокий комод TWIN -  образец гармоничного сочетания элегантности",
+			"labels": "",
+			"image": "product-14.jpg",
+			"imageHidden": "product-14_2.jpg",
+			"price": "62 900",
+			"priceOld": "",
+			"shareUrl": "",
+			"likeUrl": ""
+		},
+		{
+			"id": 15,
+			"url": "#",
+			"title": "Комод TW059",
+			"text": "Универсальный комод с шестью выдвижными ящиками",
+			"labels": "",
+			"image": "product-15.jpg",
+			"imageHidden": "product-15_2.jpg",
+			"price": "92 900",
+			"priceOld": "",
+			"shareUrl": "",
+			"likeUrl": ""
+		},
+		{
+			"id": 16,
+			"url": "#",
+			"title": "Высокий комод TW020",
+			"text": "Высокий комод TWIN -  образец гармоничного сочетания элегантности",
+			"labels": "",
+			"image": "product-16.jpg",
+			"imageHidden": "product-16_2.jpg",
+			"price": "62 900",
+			"priceOld": "",
+			"shareUrl": "",
+			"likeUrl": ""
+		}
+	]
+}

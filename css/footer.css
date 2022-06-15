@@ -1,0 +1,7 @@
+.footer__row {
+  border-top: 1px solid #C8C8C8;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}

@@ -1,0 +1,17 @@
+<svg width="486" height="238" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+ <g>
+  <title>Layer 1</title>
+  <rect rx="5" id="svg_24" height="19" width="459" y="26.65" x="12.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+  <line transform="rotate(5 38.499999999999446,135.1499938964844) " stroke-linecap="null" stroke-linejoin="null" id="svg_28" y2="224.65" x2="38.5" y1="45.65" x1="38.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+  <line transform="rotate(7 57.49999999999941,135.1499938964844) " stroke-linecap="null" stroke-linejoin="null" id="svg_29" y2="224.65" x2="57.5" y1="45.65" x1="57.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+  <line stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="svg_30" y2="220.65" x2="50.500001" y1="220.65" x1="26.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" fill="none"/>
+  <line transform="rotate(-5 442.50000000000017,134.14999389648406) " stroke-linecap="null" stroke-linejoin="null" id="svg_37" y2="221.65" x2="442.5" y1="46.65" x1="442.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+  <line stroke="#000" transform="rotate(-7 422.6209716796881,136.1351470947262) " stroke-linecap="null" stroke-linejoin="null" id="svg_38" y2="223.627687" x2="422.620962" y1="48.6426" x1="422.620962" fill-opacity="null" stroke-opacity="null" stroke-width="10" fill="none"/>
+  <line stroke="#000" stroke-linecap="null" stroke-linejoin="null" id="svg_39" y2="218.65" x2="454.5" y1="218.65" x1="431.499999" fill-opacity="null" stroke-opacity="null" stroke-width="10" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_41" y2="89.65" x2="415.5" y1="89.65" x1="63.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_42" y2="87.65" x2="243.5" y1="47.65" x1="243.5" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+  <ellipse ry="3.5" rx="3.5" id="svg_43" cy="67.15" cx="154" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+  <ellipse ry="3.5" rx="3.5" id="svg_44" cy="67.15" cx="330" fill-opacity="null" stroke-opacity="null" stroke-width="10" stroke="#000" fill="none"/>
+ </g>
+</svg>
