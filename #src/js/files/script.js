@@ -182,7 +182,6 @@ window.onload = function () {
 			let productTemplateActions = `
 		<div class="item-product__actions actions-product">
 			<div class="actions-product__body">
-				<a href="" class="actions-product__button btn">В корзину</a>
 				<a href="${productShareUrl}" class="actions-product__link _icon-share">Поделиться</a>
 				<a href="${productLikeUrl}" class="actions-product__link _icon-favorite">В избранное</a>
 			</div>
