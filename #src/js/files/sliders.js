@@ -85,36 +85,52 @@ if (document.querySelector('.slider-main__body')) {
 	});
 }
 
-if (document.querySelector('.slider-rooms__body')) {
-	new Swiper('.slider-rooms__body', {
+
+if (document.querySelector('.catalog__body')) {
+	new Swiper('.catalog__body', {
 		observer: true,
 		observeParents: true,
-		slidesPerView: 'auto',
-		spaceBetween: 24,
+		slidesPerView: 8,
+		spaceBetween: 15,
+		watchOverflow: true,
 		speed: 800,
 		loop: true,
-		watchOverflow: true,
-		loopAdditionalSlides: 5,
-		preloadImages: false,
-		parallax: true,
+
 		// Dotts
 		pagination: {
-			el: '.slider-rooms__dotts',
+			el: '.catalog-slider-main__dotts',
 			clickable: true,
 		},
 		// Arrows
 		navigation: {
-			nextEl: '.slider-rooms .slider-arrow_next',
-			prevEl: '.slider-rooms .slider-arrow_prev',
+			nextEl: '.catalog-slider .slider-arrow_next',
+			prevEl: '.catalog-slider .slider-arrow_prev',
+		},
+		breakpoints: {
+			// when window width is >= 320px
+			320: {
+				slidesPerView: 1.1,
+				spaceBetween: 15
+			},
+			// when window width is >= 768px
+			768: {
+				slidesPerView: 2,
+				spaceBetween: 15
+			},
+			// when window width is >= 992px
+			992: {
+				slidesPerView: 8,
+				spaceBetween: 15
+			}
 		}
-	});
+	})
 }
 
 if (document.querySelector('.slider-tips__body')) {
 	new Swiper('.slider-tips__body', {
 		observer: true,
 		observeParents: true,
-		slidesPerView: 3,
+		slidesPerView: 6,
 		spaceBetween: 32,
 		speed: 800,
 		loop: true,

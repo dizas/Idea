@@ -1,27 +1,23 @@
 //<ОСНОВНОЙ БЛОК>====================================================================================================
 ._section-header {
-	@include adaptiv-value("margin-top", 30, 15, 1);
+	@include adaptiv-value("padding-top", 30, 15, 1);
+	@include adaptiv-value("padding-bottom", 30, 15, 1);
 }
 
 ._section-title {
 	color: #505050;
 	position: relative;
 	display: inline-block;
-	text-transform: uppercase;
-	letter-spacing: 2px;
 	text-align: center;
-	@include adaptiv-value("margin-bottom", 42, 42, 1);
-	@include adaptiv-value("font-size", 18, 14, 1);
+	@include adaptiv-value("font-size", 22, 14, 1);
+}
 
-	&::after {
-		content: "";
-		position: absolute;
-		top: 136%;
-		left: 0;
-		width: 100%;
-		height: 1px;
-		background-color: #505050;
-	}
+._grey-section {
+	background-color: #f8f8f8;
+}
+
+._border-bottom {
+	border-bottom: 1px solid #eaeaea;
 }
 
 ._inter-title {
@@ -47,25 +43,27 @@
 
 .slider-arrows {
 	position: absolute;
-	top: 50%;
-	left: -24px;
-	z-index: 2;
-	width: calc(100% + 48px);
+	top: calc(50% - 21px);
+	left: 0;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	transition: all 0.4s ease 0s;
 }
 
 .slider-arrow {
+	opacity: 0;
 	pointer-events: auto;
-	border-radius: 50%;
-	height: 48px;
-	width: 48px;
-	background: transparentize(white, 0.4);
+	height: 42px;
+	width: 42px;
+	background-color: #fff;
+	border-radius: 5px;
 	color: $mainColor;
-	font-size: 12px;
+	font-size: 14px;
 	cursor: pointer;
-	transition: all 0.3s ease 0s;
+	transition: all 0.4s ease 0s;
+	z-index: 2;
 
 	&_prev {
 		&::before {
@@ -84,7 +82,8 @@
 	@media (any-hover: hover) {
 		&:hover {
 			box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.05);
-			background: transparentize(white, 0.1);
+			background: transparentize($mainColor, 0.0);
+			color: white;
 		}
 	}
 
@@ -105,13 +104,13 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 20px 0px 0px 0px;
+	bottom: 7px !important;
 }
 
 .swiper-pagination-bullet {
 	cursor: pointer;
-	flex: 0 0 27px;
-	height: 27px;
+	flex: 0 0 18px;
+	height: 26px;
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -125,11 +124,10 @@
 
 	&::after {
 		content: '';
-		width: 11px;
-		height: 11px;
-		background-color: $greyColorMedium;
+		width: 9px;
+		height: 9px;
+		background-color: white;
 		border-radius: 50%;
-		transition: background-color 0.3s ease 0s;
 	}
 
 	&::before {
@@ -140,7 +138,6 @@
 		width: 100%;
 		height: 100%;
 		border-radius: 50%;
-		border: 1px solid $mainColor;
 		transition: transform 0.3s ease 0s;
 		transform: scale(0);
 	}

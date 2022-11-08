@@ -1,15 +1,32 @@
 //====================================================================================================
 .main-slider {
-	background: $bgsColor;
 
 	// .main-slider__container
+
+	&__container {
+		display: flex;
+		padding: 110px 0 0 0;
+	}
 
 	// .main-slider__body
 
 	&__body {
-		padding: 110px 0 0 0;
+		width: 74%;
 		position: relative;
 		z-index: 2;
+
+		@media (any-hover: hover) {
+			&:hover .slider-arrows {
+				left: 2%;
+				width: 96%;
+			}
+		}
+
+		@media (any-hover: hover) {
+			&:hover .slider-arrow {
+				opacity: 1;
+			}
+		}
 
 		@media (max-width: $md2+px) {
 			padding: 60px 0px 0px 0px;
@@ -24,7 +41,11 @@
 		}
 	}
 
-	// .main-slider__content
+	// .main-slider__right-block
+
+	&__right-block {
+		width: 26%;
+	}
 
 
 	// .main-slider__slider
@@ -100,11 +121,6 @@
 	// .slider-main__controls
 	&__controls {
 		align-self: stretch;
-		margin: 0px 0px 20px 0px;
-
-		@media (max-width: $md2+px) {
-			margin: 10px 0px 0px 0px;
-		}
 	}
 
 	// .slider-main__body
@@ -120,7 +136,7 @@
 
 	// .slider-main__image
 	&__image {
-		padding: 0px 0px 30% 0px;
+		padding: 0px 0px 48% 0px;
 	}
 
 	// .slider-main__content
@@ -155,7 +171,7 @@
 
 	// .slider-main__title
 	&__title {
-		@include adaptiv-value("font-siza", 28, 22, 1);
+		@include adaptiv-value("font-size", 24, 20, 1);
 		font-weight: 600;
 		line-height: 120%;
 
@@ -196,7 +212,9 @@
 
 	// .controls-slider-main__dotts
 	&__dotts {
-		flex: 1 1 auto;
+		position: absolute;
+		z-index: 2;
+		bottom: 0;
 
 		@media (max-width: $md2+px) {
 			justify-content: center;
@@ -208,6 +226,47 @@
 		@media (max-width: $md2+px) {
 			display: none;
 		}
+	}
+}
+
+.right-block {
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+		margin-left: 20px;
+	}
+
+	&__item {
+		overflow: hidden;
+		height: 48%;
+		border-radius: 5px;
+
+		@media (any-hover: hover) {
+			&:hover .right-block__title-wrapper {
+				padding: 26px 6px;
+				opacity: 0.9;
+				transition: all 0.3s ease 0s;
+			}
+		}
+	}
+
+	&__title-wrapper {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		z-index: 2;
+		opacity: 0.85;
+		background-color: white;
+		padding: 18px 6px;
+		text-align: center;
+		transition: all 0.3s ease 0s;
+	}
+
+	&__title {
+		color: black;
+		font-size: 20px;
 	}
 }
 
