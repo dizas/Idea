@@ -239,74 +239,66 @@
 		display: flex;
 		flex-direction: column;
 		width: 90%;
-		height: 30%;
+		height: 28%;
 		text-align: center;
 
 		.right-block-title {
-			margin-top: 10px;
-			margin-bottom: 6px;
+			position: absolute;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			top: 0px;
+			left: 10px;
+			height: 40px;
 			text-transform: uppercase;
-			font-size: 14px;
+			font-size: 16px;
 			font-weight: 600;
 			letter-spacing: 1px;
 			color: rgb(54, 54, 54);
 			transition: all 0.4s ease 0s;
-		}
-
-		@media (any-hover: hover) {
-
-			&:hover .right-block__wrapper {
-				transition: all 0.4s ease 0s;
-				transform: scale(1.03);
-			}
-
-			&:hover .right-block__wrapper:before {
-				opacity: 1;
-				border: 1px solid $mainColor;
-				left: -2%;
-				top: -6%;
-				width: 104%;
-				height: 112%;
-				border-radius: 8px;
-				transition: all 0.4s ease 0s;
-				box-shadow: 0 0 1px $mainColor, inset 0 0 1px $mainColor;
-			}
-
-			&:hover .right-block-title {
-				transition: all 0.4s ease 0s;
-				letter-spacing: 2px;
-				margin-top: 16px;
-				margin-bottom: 0;
-				//color: transparent;
-				//text-shadow: 0 0 1px rgba(61, 61, 61, 0.5);
-			}
+			z-index: 3;
 		}
 	}
 
 	&__wrapper {
 		position: relative;
-		border-radius: 8px;
 		width: 100%;
 		height: 100%;
+		border: 1px solid silver;
+		border-radius: 5px 5px 5px 5px;
+		overflow: hidden;
 		transition: all 0.4s ease 0s;
+
+		@media (any-hover: hover) {
+			&:hover .right-block-white {
+				width: 0px;
+				border-right: 0px solid transparent;
+				transition: all 0.4s ease 0s;
+			}
+
+			&:hover .right-block-title {
+				opacity: 0;
+			}
+		}
 	}
 
-	&__wrapper:before {
-		content: "";
+	.right-block-white {
 		position: absolute;
-		opacity: 0;
 		left: 0;
 		top: 0;
-		width: 100%;
-		height: 100%;
-		border: 0;
+		border-top: 40px solid rgb(255, 255, 255);
+		border-right: 30px solid transparent;
+		border-radius: 4px 0 0 0;
+		height: 0;
+		width: 230px;
+		transition: all 0.4s ease 0s;
+		z-index: 2;
 	}
 
 	&__img {
 		display: flex;
 		width: 100%;
 		height: 100%;
-		border-radius: 4px;
 		overflow: hidden;
 	}
 }
