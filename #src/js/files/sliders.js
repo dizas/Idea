@@ -91,9 +91,9 @@ if (document.querySelector('.catalog__body')) {
 		observer: true,
 		observeParents: true,
 		slidesPerView: 8,
-		spaceBetween: 15,
+		spaceBetween: 8,
 		watchOverflow: true,
-		speed: 800,
+		speed: 400,
 		loop: true,
 
 		// Dotts
@@ -103,24 +103,24 @@ if (document.querySelector('.catalog__body')) {
 		},
 		// Arrows
 		navigation: {
-			nextEl: '.catalog-slider .slider-arrow_next',
-			prevEl: '.catalog-slider .slider-arrow_prev',
+			nextEl: '.catalog__slider .slider-arrow_next',
+			prevEl: '.catalog__slider .slider-arrow_prev',
 		},
 		breakpoints: {
 			// when window width is >= 320px
 			320: {
 				slidesPerView: 1.1,
-				spaceBetween: 15
+				spaceBetween: 8
 			},
 			// when window width is >= 768px
 			768: {
 				slidesPerView: 2,
-				spaceBetween: 15
+				spaceBetween: 8
 			},
 			// when window width is >= 992px
 			992: {
 				slidesPerView: 8,
-				spaceBetween: 15
+				spaceBetween: 8
 			}
 		}
 	})
