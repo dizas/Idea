@@ -2707,7 +2707,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   text-align: center;
 }
 .right-block__item .right-block-title {
-  margin-top: 8px;
+  margin-top: 10px;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -2726,11 +2726,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
 }
 .right-block__wrapper {
-  border: 1px solid #515151;
   border-radius: 8px;
   width: 100%;
   height: 100%;
-  padding: 4px;
   transition: all 0.4s ease 0s;
 }
 .right-block__img {
