@@ -19,7 +19,6 @@
 		<div class="header__container _container">
 			<div class="header__body">
 				<div class="header__main">
-					<a href="" class="header__logo"><img src="./img/logo/Idea_logo.svg" alt="logo" width="200px"></a>
 					<div class="header_menu menu">
 						<nav class="menu__body">
 							<ul data-spollers="768,max" data-one-spoller class="menu__list">
@@ -129,17 +128,7 @@
 						</nav>
 					</div>
 				</div>
-				<div class="header__search">
-					<div class="search-form">
-						<form action="#" class="search-form__item">
-							<button type="button" class="search-form_btn _icon-search"></button>
-							<input autocomplete="off" type="text" name="form[]" data-value="Поиск..."
-								class="search-form__input">
-						</form>
-					</div>
-				</div>
 				<div class="header__actions action-header">
-					<button type="button" class="search-form__icon _icon-search"></button>
 					<a href="" class="action-header__item action-header__item_favorites _icon-favorite"></a>
 					<div class="action-header__item cart-header">
 						<div class="cart-header__icon _icon-cart"></div>
@@ -148,16 +137,34 @@
 						</div>
 					</div>
 				</div>
-				<button type="button" class="icon-menu">
-					<span></span>
-					<span></span>
-					<span></span>
-				</button>
 			</div>
 		</div>
 	</div>
 </header>
 		<main class="page">
+			<section class="page__firs-line first-line">
+				<div class="firs-line__container _container">
+					<div class="first-line__body">
+						<div class="first-line__item">
+							<a href="#">+7 (800) 222-50-43</a>
+							<div class="hours">Ежедневно с 9-00 до 19-00</div>
+						</div>
+						<div class="first-line__item">
+							<a href=""><img src="./img/logo/center-logo.jpg" alt=""></img></a>
+							<a href="">
+								<div class="slogan"> <span>Фабрика</span> мебели</div>
+							</a>
+						</div>
+						<div class="first-line__item">
+							<form action="#" class="line-search">
+								<input autocomplete="off" type="text" name="form[]" data-value="Поиск..."
+									class="line-search__input" size="29">
+								<button type="button" class="line-search__btn _icon-search"></button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
 			<section class="page__main-slider main-slider">
 				<div class="main-slider__container _container">
 					<div class="main-slider__body">
@@ -291,25 +298,33 @@
 						</div>
 					</div>
 					<div class="main-slider__right-block right-block">
-						<div class="right-block__wrapper">
-							<div class="right-block__item _ibg">
-								.righ
-								<a href="#">
-									<div class="right-block__title-wrapper">
-										<div class="right-block__title">Все коллекции The IDEA</div>
-									</div>
-									<img src="./img/right-img/collection.jpg" alt="Image">
-								</a>
+						<a href="#" class="right-block__item">
+							<div class="right-block__wrapper">
+								<div class="right-block__img _ibg">
+									<img src="./img/right-img/showroom-3.jpg" alt="">
+								</div>
+								<div class="right-block__hidden-border"></div>
 							</div>
-							<div class="right-block__item _ibg">
-								<a href="#">
-									<div class="right-block__title-wrapper">
-										<div class="right-block__title">Наши проекты</div>
-									</div>
-									<img src="./img/right-img/priject.jpg" alt="Image">
-								</a>
+							<span class="right-block-title">Шоурумы</span>
+						</a>
+						<a href="#" class="right-block__item">
+							<div class="right-block__wrapper">
+								<div class="right-block__img _ibg">
+									<img src="./img/right-img/collection.jpg" alt="">
+								</div>
+								<div class="right-block__hidden-border"></div>
 							</div>
-						</div>
+							<span class="right-block-title">Все коллекции</span>
+						</a>
+						<a href="#" class="right-block__item">
+							<div class="right-block__wrapper">
+								<div class="right-block__img _ibg">
+									<img src="./img/right-img/priject-2.jpg" alt="">
+								</div>
+								<div class="right-block__hidden-border"></div>
+							</div>
+							<span class="right-block-title">THE IDEA в интерьере</span>
+						</a>
 					</div>
 				</div>
 			</section>
@@ -324,15 +339,7 @@
 								<div class="cat-item__image _ibg">
 									<img src="img/categories/1.jpg" alt="">
 								</div>
-								<div class="cat-item__title">Буфеты</div>
-							</a>
-						</div>
-						<div class="catalog-slider__slide">
-							<a href="" class="catalog__item cat-item">
-								<div class="cat-item__image _ibg">
-									<img src="img/categories/2.jpg" alt="">
-								</div>
-								<div class="cat-item__title">Витрины</div>
+								<div class="cat-item__title">Буфеты и витрины</div>
 							</a>
 						</div>
 						<div class="catalog-slider__slide">
@@ -341,6 +348,14 @@
 									<img src="img/categories/3.jpg" alt="">
 								</div>
 								<div class="cat-item__title">Комоды</div>
+							</a>
+						</div>
+						<div class="catalog-slider__slide">
+							<a href="" class="catalog__item cat-item">
+								<div class="cat-item__image _ibg">
+									<img src="img/categories/6.jpg" alt="">
+								</div>
+								<div class="cat-item__title">Прикроватные тумбы</div>
 							</a>
 						</div>
 						<div class="catalog-slider__slide">
@@ -362,41 +377,9 @@
 						<div class="catalog-slider__slide">
 							<a href="" class="catalog__item cat-item">
 								<div class="cat-item__image _ibg">
-									<img src="img/categories/6.jpg" alt="">
-								</div>
-								<div class="cat-item__title">Прикроватные тумбы</div>
-							</a>
-						</div>
-						<div class="catalog-slider__slide">
-							<a href="" class="catalog__item cat-item">
-								<div class="cat-item__image _ibg">
-									<img src="img/categories/7.jpg" alt="">
-								</div>
-								<div class="cat-item__title">Стеллажи</div>
-							</a>
-						</div>
-						<div class="catalog-slider__slide">
-							<a href="" class="catalog__item cat-item">
-								<div class="cat-item__image _ibg">
 									<img src="img/categories/8.jpg" alt="">
 								</div>
-								<div class="cat-item__title">Шкафы</div>
-							</a>
-						</div>
-						<div class="catalog-slider__slide">
-							<a href="" class="catalog__item cat-item">
-								<div class="cat-item__image _ibg">
-									<img src="img/categories/9.jpg" alt="">
-								</div>
-								<div class="cat-item__title">Обеденные столы</div>
-							</a>
-						</div>
-						<div class="catalog-slider__slide">
-							<a href="" class="catalog__item cat-item">
-								<div class="cat-item__image _ibg">
-									<img src="img/categories/10.jpg" alt="">
-								</div>
-								<div class="cat-item__title">Консольные столы</div>
+								<div class="cat-item__title">Шкафы и стеллажи</div>
 							</a>
 						</div>
 						<div class="catalog-slider__slide">
@@ -404,7 +387,7 @@
 								<div class="cat-item__image _ibg">
 									<img src="img/categories/11.jpg" alt="">
 								</div>
-								<div class="cat-item__title">Рабочие столы</div>
+								<div class="cat-item__title">Столы</div>
 							</a>
 						</div>
 						<div class="catalog-slider__slide">
